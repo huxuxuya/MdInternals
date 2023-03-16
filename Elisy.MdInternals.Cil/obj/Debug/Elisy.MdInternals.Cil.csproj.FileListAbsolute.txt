@@ -1,0 +1,9 @@
+D:\Projects\C\MdInternals\Elisy.MdInternals.Cil\bin\Debug\Elisy.MdInternals.Cil.dll
+D:\Projects\C\MdInternals\Elisy.MdInternals.Cil\bin\Debug\Elisy.MdInternals.Cil.pdb
+D:\Projects\C\MdInternals\Elisy.MdInternals.Cil\bin\Debug\Elisy.MdInternals.dll
+D:\Projects\C\MdInternals\Elisy.MdInternals.Cil\bin\Debug\Elisy.MdInternals.pdb
+D:\Projects\C\MdInternals\Elisy.MdInternals.Cil\obj\Debug\Elisy.MdInternals.Cil.csproj.AssemblyReference.cache
+D:\Projects\C\MdInternals\Elisy.MdInternals.Cil\obj\Debug\Elisy.MdInternals.Cil.csproj.CoreCompileInputs.cache
+D:\Projects\C\MdInternals\Elisy.MdInternals.Cil\obj\Debug\Elisy.MdInternals.Cil.csproj.CopyComplete
+D:\Projects\C\MdInternals\Elisy.MdInternals.Cil\obj\Debug\Elisy.MdInternals.Cil.dll
+D:\Projects\C\MdInternals\Elisy.MdInternals.Cil\obj\Debug\Elisy.MdInternals.Cil.pdb
