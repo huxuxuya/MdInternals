@@ -137,6 +137,8 @@ namespace Elisy.MdInternals.Cil
                         DefaultParameters.Add(value2.AsDouble().ToString(CultureInfo.InvariantCulture));
                     else if (value1 == "B")
                         DefaultParameters.Add(value2.AsBoolean() ? "Истина" : "Ложь");
+                    else if (value1 == "D")
+                        DefaultParameters.Add("\'" + value2.AsString() + "\'");
                     else
                         throw new NotImplementedException();
                 }

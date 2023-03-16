@@ -1,0 +1,15 @@
+D:\Projects\C\MdInternals\Utils\CfInspector\bin\Debug\CfInspector.exe.config
+D:\Projects\C\MdInternals\Utils\CfInspector\bin\Debug\CfInspector.exe
+D:\Projects\C\MdInternals\Utils\CfInspector\bin\Debug\CfInspector.pdb
+D:\Projects\C\MdInternals\Utils\CfInspector\bin\Debug\Elisy.CfProject.dll
+D:\Projects\C\MdInternals\Utils\CfInspector\bin\Debug\Elisy.MdInternals.Cil.dll
+D:\Projects\C\MdInternals\Utils\CfInspector\bin\Debug\Elisy.MdInternals.dll
+D:\Projects\C\MdInternals\Utils\CfInspector\bin\Debug\Elisy.CfProject.pdb
+D:\Projects\C\MdInternals\Utils\CfInspector\bin\Debug\Elisy.MdInternals.Cil.pdb
+D:\Projects\C\MdInternals\Utils\CfInspector\bin\Debug\Elisy.MdInternals.pdb
+D:\Projects\C\MdInternals\Utils\CfInspector\obj\x86\Debug\CfInspector.csproj.AssemblyReference.cache
+D:\Projects\C\MdInternals\Utils\CfInspector\obj\x86\Debug\CfInspector.csproj.SuggestedBindingRedirects.cache
+D:\Projects\C\MdInternals\Utils\CfInspector\obj\x86\Debug\CfInspector.csproj.CoreCompileInputs.cache
+D:\Projects\C\MdInternals\Utils\CfInspector\obj\x86\Debug\CfInspector.csproj.CopyComplete
+D:\Projects\C\MdInternals\Utils\CfInspector\obj\x86\Debug\CfInspector.exe
+D:\Projects\C\MdInternals\Utils\CfInspector\obj\x86\Debug\CfInspector.pdb
