@@ -1,0 +1,136 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Projects\\C\\MdInternals\\Utils\\CfInspector\\CfInspector.csproj": {}
+  },
+  "projects": {
+    "D:\\Projects\\C\\MdInternals\\Elisy.CfProject\\Elisy.CfProject.csproj": {
+      "restore": {
+        "projectUniqueName": "D:\\Projects\\C\\MdInternals\\Elisy.CfProject\\Elisy.CfProject.csproj",
+        "projectName": "Elisy.CfProject",
+        "projectPath": "D:\\Projects\\C\\MdInternals\\Elisy.CfProject\\Elisy.CfProject.csproj",
+        "frameworks": {
+          "net48": {
+            "projectReferences": {
+              "D:\\Projects\\C\\MdInternals\\Elisy.MdInternals\\Elisy.MdInternals.csproj": {
+                "projectPath": "D:\\Projects\\C\\MdInternals\\Elisy.MdInternals\\Elisy.MdInternals.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net48": {}
+      }
+    },
+    "D:\\Projects\\C\\MdInternals\\Elisy.MdInternals.Cil\\Elisy.MdInternals.Cil.csproj": {
+      "restore": {
+        "projectUniqueName": "D:\\Projects\\C\\MdInternals\\Elisy.MdInternals.Cil\\Elisy.MdInternals.Cil.csproj",
+        "projectName": "Elisy.MdInternals.Cil",
+        "projectPath": "D:\\Projects\\C\\MdInternals\\Elisy.MdInternals.Cil\\Elisy.MdInternals.Cil.csproj",
+        "frameworks": {
+          "net48": {
+            "projectReferences": {
+              "D:\\Projects\\C\\MdInternals\\Elisy.MdInternals\\Elisy.MdInternals.csproj": {
+                "projectPath": "D:\\Projects\\C\\MdInternals\\Elisy.MdInternals\\Elisy.MdInternals.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net48": {}
+      }
+    },
+    "D:\\Projects\\C\\MdInternals\\Elisy.MdInternals\\Elisy.MdInternals.csproj": {
+      "restore": {
+        "projectUniqueName": "D:\\Projects\\C\\MdInternals\\Elisy.MdInternals\\Elisy.MdInternals.csproj",
+        "projectName": "Elisy.MdInternals",
+        "projectPath": "D:\\Projects\\C\\MdInternals\\Elisy.MdInternals\\Elisy.MdInternals.csproj",
+        "frameworks": {
+          "net48": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net48": {}
+      }
+    },
+    "D:\\Projects\\C\\MdInternals\\Utils\\CfInspector\\CfInspector.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Projects\\C\\MdInternals\\Utils\\CfInspector\\CfInspector.csproj",
+        "projectName": "CfInspector",
+        "projectPath": "D:\\Projects\\C\\MdInternals\\Utils\\CfInspector\\CfInspector.csproj",
+        "packagesPath": "C:\\Users\\shclo\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\C\\MdInternals\\Utils\\CfInspector\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\shclo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net60"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net60",
+            "projectReferences": {
+              "D:\\Projects\\C\\MdInternals\\Elisy.CfProject\\Elisy.CfProject.csproj": {
+                "projectPath": "D:\\Projects\\C\\MdInternals\\Elisy.CfProject\\Elisy.CfProject.csproj"
+              },
+              "D:\\Projects\\C\\MdInternals\\Elisy.MdInternals.Cil\\Elisy.MdInternals.Cil.csproj": {
+                "projectPath": "D:\\Projects\\C\\MdInternals\\Elisy.MdInternals.Cil\\Elisy.MdInternals.Cil.csproj"
+              },
+              "D:\\Projects\\C\\MdInternals\\Elisy.MdInternals\\Elisy.MdInternals.csproj": {
+                "projectPath": "D:\\Projects\\C\\MdInternals\\Elisy.MdInternals\\Elisy.MdInternals.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net60",
+          "dependencies": {
+            "Microsoft.CSharp": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            },
+            "System.Data.DataSetExtensions": {
+              "target": "Package",
+              "version": "[4.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

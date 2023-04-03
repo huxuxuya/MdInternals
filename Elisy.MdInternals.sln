@@ -1,4 +1,4 @@
-﻿
+
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Elisy.MdInternals", "Elisy.MdInternals\Elisy.MdInternals.csproj", "{895BB387-9D6A-49FF-B376-D06BB88A1A85}"
@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Elisy.CfProject", "Elisy.Cf
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Elisy.MdInternals.Cil", "Elisy.MdInternals.Cil\Elisy.MdInternals.Cil.csproj", "{8548704C-A544-4DA3-95F3-F03FA14FF8EC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CfInspector", "Utils\CfInspector\CfInspector.csproj", "{6D78C153-4A75-465D-94E8-E8E8FB47527A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CfInspector", "Utils\CfInspector\CfInspector.csproj", "{6D78C153-4A75-465D-94E8-E8E8FB47527A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

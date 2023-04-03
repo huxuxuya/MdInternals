@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "g/ByTzvBk3pk2qE+Lx5P7G2AbuL+F3YY+CTugmy/ZMjNQdHCrxrTW0qQuJsxoSrPEXDq//svLcKfxy8Pu+nhpQ==",
+  "success": true,
+  "projectFilePath": "D:\\Projects\\C\\MdInternals\\Utils\\CfInspector\\CfInspector.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\shclo\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\shclo\\.nuget\\packages\\system.data.datasetextensions\\4.5.0\\system.data.datasetextensions.4.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}
