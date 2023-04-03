@@ -1,0 +1,9 @@
+D:\Projects\C\MdInternals\Elisy.CfProject\bin\Release\Elisy.CfProject.dll
+D:\Projects\C\MdInternals\Elisy.CfProject\bin\Release\Elisy.CfProject.pdb
+D:\Projects\C\MdInternals\Elisy.CfProject\bin\Release\Elisy.MdInternals.dll
+D:\Projects\C\MdInternals\Elisy.CfProject\bin\Release\Elisy.MdInternals.pdb
+D:\Projects\C\MdInternals\Elisy.CfProject\obj\Release\Elisy.CfProject.csproj.AssemblyReference.cache
+D:\Projects\C\MdInternals\Elisy.CfProject\obj\Release\Elisy.CfProject.csproj.CoreCompileInputs.cache
+D:\Projects\C\MdInternals\Elisy.CfProject\obj\Release\Elisy.CfProject.csproj.CopyComplete
+D:\Projects\C\MdInternals\Elisy.CfProject\obj\Release\Elisy.CfProject.dll
+D:\Projects\C\MdInternals\Elisy.CfProject\obj\Release\Elisy.CfProject.pdb

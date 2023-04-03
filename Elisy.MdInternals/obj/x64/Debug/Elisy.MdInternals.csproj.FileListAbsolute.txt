@@ -1,0 +1,8 @@
+D:\Projects\C\MdInternals\Elisy.MdInternals\bin\x64\Debug\Elisy.MdInternals.dll
+D:\Projects\C\MdInternals\Elisy.MdInternals\bin\x64\Debug\Elisy.MdInternals.pdb
+D:\Projects\C\MdInternals\Elisy.MdInternals\obj\x64\Debug\Elisy.MdInternals.csproj.AssemblyReference.cache
+D:\Projects\C\MdInternals\Elisy.MdInternals\obj\x64\Debug\Elisy.MdInternals.Resources.StringTemplates.resources
+D:\Projects\C\MdInternals\Elisy.MdInternals\obj\x64\Debug\Elisy.MdInternals.csproj.GenerateResource.cache
+D:\Projects\C\MdInternals\Elisy.MdInternals\obj\x64\Debug\Elisy.MdInternals.csproj.CoreCompileInputs.cache
+D:\Projects\C\MdInternals\Elisy.MdInternals\obj\x64\Debug\Elisy.MdInternals.dll
+D:\Projects\C\MdInternals\Elisy.MdInternals\obj\x64\Debug\Elisy.MdInternals.pdb
