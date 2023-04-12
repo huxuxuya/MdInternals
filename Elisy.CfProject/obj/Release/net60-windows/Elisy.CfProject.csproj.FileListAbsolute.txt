@@ -1,0 +1,10 @@
+D:\Projects\C\MdInternals\Elisy.CfProject\bin\Release\net60-windows\Elisy.CfProject.deps.json
+D:\Projects\C\MdInternals\Elisy.CfProject\bin\Release\net60-windows\Elisy.CfProject.dll
+D:\Projects\C\MdInternals\Elisy.CfProject\bin\Release\net60-windows\Elisy.CfProject.pdb
+D:\Projects\C\MdInternals\Elisy.CfProject\obj\Release\net60-windows\Elisy.CfProject.csproj.AssemblyReference.cache
+D:\Projects\C\MdInternals\Elisy.CfProject\obj\Release\net60-windows\Elisy.CfProject.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\C\MdInternals\Elisy.CfProject\obj\Release\net60-windows\Elisy.CfProject.csproj.CoreCompileInputs.cache
+D:\Projects\C\MdInternals\Elisy.CfProject\obj\Release\net60-windows\Elisy.CfProject.dll
+D:\Projects\C\MdInternals\Elisy.CfProject\obj\Release\net60-windows\refint\Elisy.CfProject.dll
+D:\Projects\C\MdInternals\Elisy.CfProject\obj\Release\net60-windows\Elisy.CfProject.pdb
+D:\Projects\C\MdInternals\Elisy.CfProject\obj\Release\net60-windows\ref\Elisy.CfProject.dll

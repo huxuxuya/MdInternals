@@ -116,7 +116,10 @@ namespace Elisy.MdInternals.Serialization
                 if (c == '"')
                 {
                     if (this.MoveNext() == '"')
-                        sb.Append('"');
+                    {
+                        sb.Append('\"');
+                        sb.Append('\"');
+                    }
                     else
                     {
                         this.MovePrev();

@@ -105,7 +105,7 @@ namespace Elisy.MdInternals.Cil
                 }
                 else if (opCode.Code == CmdCode._IfSimple)
                 {
-                    sourceCode.AppendLine(String.Format("Если НЕ {0} тогда", stack.Pop()));
+                    sourceCode.AppendLine(String.Format("Если Не {0} Тогда", stack.Pop()));
                     sourceCode.Indent();
                 }
                 else if (opCode.Code == CmdCode._IfSimpleEndIf)
@@ -127,7 +127,7 @@ namespace Elisy.MdInternals.Cil
                 }
                 else if (opCode.Code == CmdCode._While)
                 {
-                    sourceCode.AppendLine(String.Format("Пока {0} цикл", stack.Pop()));
+                    sourceCode.AppendLine(String.Format("Пока {0} Цикл", stack.Pop()));
                     sourceCode.Indent();
                 }
                 else if (opCode.Code == CmdCode._WhileEndDo)
@@ -137,13 +137,13 @@ namespace Elisy.MdInternals.Cil
                 }
                 else if (opCode.Code == CmdCode._If)
                 {
-                    sourceCode.AppendLine(String.Format("Если {0} тогда", stack.Pop()));
+                    sourceCode.AppendLine(String.Format("Если {0} Тогда", stack.Pop()));
                     sourceCode.Indent();
                 }
                 else if (opCode.Code == CmdCode._ElsIf)
                 {
                     sourceCode.Unindent();
-                    sourceCode.AppendLine(String.Format("ИначеЕсли {0} тогда", stack.Pop()));
+                    sourceCode.AppendLine(String.Format("ИначеЕсли {0} Тогда", stack.Pop()));
                     sourceCode.Indent();
                 }
                 else if (opCode.Code == CmdCode._Else)
@@ -159,7 +159,7 @@ namespace Elisy.MdInternals.Cil
                 }
                 else if (opCode.Code == CmdCode._For)
                 {
-                    sourceCode.AppendLine(String.Format("Для {2} = {1} по {0} Цикл", stack.Pop(), stack.Pop(), stack.Pop()));
+                    sourceCode.AppendLine(String.Format("Для {2} = {1} По {0} Цикл", stack.Pop(), stack.Pop(), stack.Pop()));
                     sourceCode.Indent();
                 }
                 else if (opCode.Code == CmdCode._ForEndDo)
@@ -169,7 +169,7 @@ namespace Elisy.MdInternals.Cil
                 }
                 else if (opCode.Code == CmdCode._ForEach)
                 {
-                    sourceCode.AppendLine(String.Format("Для каждого {0} из {1} Цикл", stack.Pop(), stack.Pop()));
+                    sourceCode.AppendLine(String.Format("Для Каждого {0} Из {1} Цикл", stack.Pop(), stack.Pop()));
                     sourceCode.Indent();
                 }
                 else if (opCode.Code == CmdCode._ForEachIn)
@@ -232,15 +232,17 @@ namespace Elisy.MdInternals.Cil
                     var nextPushRetVal = method.GetOpCodeByIndex(opCode.Index + 1);
                     //if ((Methods[opCode.Op1].Attributes & MethodAttributes.Function) != 0)
                     if (nextPushRetVal.Code == CmdCode.PushReturn)
-                        stack.Push(Methods[opCode.Op1].Name + "(" + GetParameters(stack, Int32.Parse(stack.Pop(), CultureInfo.InvariantCulture)) + ")");
+                        stack.Push(Methods[opCode.Op1].Name + "(" + GetParametersReverse(stack, Int32.Parse(stack.Pop(), CultureInfo.InvariantCulture)) + ")");
                     else
                         //Call function as procedure
-                        sourceCode.AppendLine(Methods[opCode.Op1].Name + "(" + GetParameters(stack, Int32.Parse(stack.Pop(), CultureInfo.InvariantCulture)) + ");");
+                        sourceCode.AppendLine(Methods[opCode.Op1].Name + "(" + GetParametersReverse(stack, Int32.Parse(stack.Pop(), CultureInfo.InvariantCulture)) + ");");
                 }
                 else if (opCode.Code == CmdCode.CallObjectProcedure)
-                    sourceCode.AppendLine(string.Format("{1}.{2}({0});", GetParameters(stack, Int32.Parse(stack.Pop(), CultureInfo.InvariantCulture)), stack.Pop(), Constants[opCode.Op1].Value.AsString()));
+
+                    sourceCode.AppendLine(string.Format("{1}.{2}({0});", GetParametersReverse(stack, Int32.Parse(stack.Pop(), CultureInfo.InvariantCulture)), stack.Pop(), Constants[opCode.Op1].Value.AsString()));
+
                 else if (opCode.Code == CmdCode.CallObjectFunction)
-                    stack.Push(string.Format("{1}.{2}({0})", GetParameters(stack, Int32.Parse(stack.Pop(), CultureInfo.InvariantCulture)), stack.Pop(), Constants[opCode.Op1].Value.AsString()));
+                    stack.Push(string.Format("{1}.{2}({0})", GetParametersReverse(stack, Int32.Parse(stack.Pop(), CultureInfo.InvariantCulture)), stack.Pop(), Constants[opCode.Op1].Value.AsString()));
 
                 else if (opCode.Code == CmdCode.Ret)
                 {
@@ -264,7 +266,7 @@ namespace Elisy.MdInternals.Cil
                     stack.Push(string.Format("{1} % {0}", stack.Pop(), stack.Pop()));
 
                 else if (opCode.Code == CmdCode.Not)
-                    stack.Push(string.Format("НЕ {0}", stack.Pop()));
+                    stack.Push(string.Format("Не ({0})", stack.Pop()));
                 else if (opCode.Code == CmdCode.AndJmp)
                 {
                     if (method.GetOpCodeByIndex(opCode.Index - 1).Code == CmdCode.Boolean)
@@ -275,9 +277,9 @@ namespace Elisy.MdInternals.Cil
                 else if (opCode.Code == CmdCode.OrJmp)
                 {
                     if (method.GetOpCodeByIndex(opCode.Index - 1).Code == CmdCode.Boolean)
-                        stack.Push(string.Format("{1}{0} ИЛИ ", stack.Pop(), stack.Pop()));
+                        stack.Push(string.Format("{1}{0} Или ", stack.Pop(), stack.Pop()));
                     else
-                        stack.Push(string.Format("({0} ИЛИ ", stack.Pop()));
+                        stack.Push(string.Format("({0} Или ", stack.Pop()));
                 }
 
                 else if (opCode.Code == CmdCode.EQ)
@@ -322,7 +324,7 @@ namespace Elisy.MdInternals.Cil
                 }
 
                 else if (opCode.Code == CmdCode.New)
-                    stack.Push("Новый " + Constants[opCode.Op1].Value.AsString() + "(" + GetParameters(stack, Int32.Parse(stack.Pop(), CultureInfo.InvariantCulture)) + ")");
+                    stack.Push("Новый " + Constants[opCode.Op1].Value.AsString() + "(" + GetParametersReverse(stack, Int32.Parse(stack.Pop(), CultureInfo.InvariantCulture)) + ")");
 
                 else if (opCode.Code == CmdCode.Execute)
                     sourceCode.AppendLine(string.Format("Выполнить({0});", stack.Pop()));
@@ -491,6 +493,16 @@ namespace Elisy.MdInternals.Cil
 
         }
 
+        private string GetParametersReverse(Stack<string> stack, int parametersCount)
+        {
+            List<string> result = new List<string>();
+            for (int i = 0; i < parametersCount; i++)
+                result.Add(stack.Pop());
+            result.Reverse();
+            return String.Join(", ", result);
+
+        }
+
         private string GetDebugString(Method method, List<OpCode> lineCodes, Stack<string> stack)
         {
             var request = from opCode in lineCodes
@@ -533,7 +545,7 @@ namespace Elisy.MdInternals.Cil
 
         private void WriteMethodFooter(SourceCode sourceCode, Method method)
         {
-            string header = String.Format("{0} //{1}()", (method.Attributes & MethodAttributes.Function) != 0 ? "КонецФункции" : "КонецПроцедуры", method.Name);
+            string header = String.Format("{0}", (method.Attributes & MethodAttributes.Function) != 0 ? "КонецФункции" : "КонецПроцедуры");
             sourceCode.AppendLine(header);
             //sourceCode.CurrentLineNunber++;
         }

@@ -1,0 +1,12 @@
+D:\Projects\C\MdInternals\Elisy.MdInternals\bin\Release\net60-windows\Elisy.MdInternals.deps.json
+D:\Projects\C\MdInternals\Elisy.MdInternals\bin\Release\net60-windows\Elisy.MdInternals.dll
+D:\Projects\C\MdInternals\Elisy.MdInternals\bin\Release\net60-windows\Elisy.MdInternals.pdb
+D:\Projects\C\MdInternals\Elisy.MdInternals\obj\Release\net60-windows\Elisy.MdInternals.csproj.AssemblyReference.cache
+D:\Projects\C\MdInternals\Elisy.MdInternals\obj\Release\net60-windows\Elisy.MdInternals.Resources.StringTemplates.resources
+D:\Projects\C\MdInternals\Elisy.MdInternals\obj\Release\net60-windows\Elisy.MdInternals.csproj.GenerateResource.cache
+D:\Projects\C\MdInternals\Elisy.MdInternals\obj\Release\net60-windows\Elisy.MdInternals.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\C\MdInternals\Elisy.MdInternals\obj\Release\net60-windows\Elisy.MdInternals.csproj.CoreCompileInputs.cache
+D:\Projects\C\MdInternals\Elisy.MdInternals\obj\Release\net60-windows\Elisy.MdInternals.dll
+D:\Projects\C\MdInternals\Elisy.MdInternals\obj\Release\net60-windows\refint\Elisy.MdInternals.dll
+D:\Projects\C\MdInternals\Elisy.MdInternals\obj\Release\net60-windows\Elisy.MdInternals.pdb
+D:\Projects\C\MdInternals\Elisy.MdInternals\obj\Release\net60-windows\ref\Elisy.MdInternals.dll

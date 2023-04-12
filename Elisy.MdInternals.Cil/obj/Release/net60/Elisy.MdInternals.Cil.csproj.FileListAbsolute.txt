@@ -1,0 +1,3 @@
+D:\Projects\C\MdInternals\Elisy.MdInternals.Cil\obj\Release\net60\Elisy.MdInternals.Cil.csproj.AssemblyReference.cache
+D:\Projects\C\MdInternals\Elisy.MdInternals.Cil\obj\Release\net60\Elisy.MdInternals.Cil.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\C\MdInternals\Elisy.MdInternals.Cil\obj\Release\net60\Elisy.MdInternals.Cil.csproj.CoreCompileInputs.cache
