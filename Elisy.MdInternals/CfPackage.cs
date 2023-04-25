@@ -123,6 +123,7 @@ namespace Elisy.MdInternals
 
             parts.Add(typeof(HttpService), configurationPart.HttpServices);
             parts.Add(typeof(ToDoFoundMetadataObject), configurationPart.ToDoFoundMetadataObjects);
+            parts.Add(typeof(DefinedType), configurationPart.DefinedTypes);
 
 
 

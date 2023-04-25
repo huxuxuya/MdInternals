@@ -265,6 +265,7 @@
       "#ElisyBound:WebServices",
       "#ElisyBound:Languages",
       "#ElisyBound:FunctionalOptions",
+	  "#ElisyBound:DefinedTypes",
       "#ElisyBound:XdtoPackages",
       "#ElisyBound:WsReferences"
     }
