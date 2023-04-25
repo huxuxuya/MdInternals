@@ -94,6 +94,8 @@ namespace Elisy.MdInternals
         public Guid Guid_8_1_1_0_2 { get; set; }
         public Collection HttpServices { get; set; }
 
+        public Collection ToDoFoundMetadataObjects { get; set; }
+
         public Configuration()
             : base()
         {

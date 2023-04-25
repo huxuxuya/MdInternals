@@ -7,16 +7,16 @@ using Elisy.MdInternals.Cf;
 
 namespace Elisy.MdInternals
 {
-    [Guid("6e6dc072-b7ac-41e7-8f88-278d25b6da2a")]
-    public class HttpService : MetadataPart
+    [Guid("0fffc09c-8f4c-47cc-b41c-8d5c5a221d79")]
+    public class ToDoFoundMetadataObject : MetadataPart
     {
-        public HttpService()
+        public ToDoFoundMetadataObject()
             : base()
         {
         }
 
 
-        public HttpService(ImageRow imageRow)
+        public ToDoFoundMetadataObject(ImageRow imageRow)
             : base(imageRow)
         {
         }

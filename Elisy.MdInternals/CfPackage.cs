@@ -122,6 +122,7 @@ namespace Elisy.MdInternals
             parts.Add(typeof(AccountingRegister), configurationPart.AccountingRegisters);
 
             parts.Add(typeof(HttpService), configurationPart.HttpServices);
+            parts.Add(typeof(ToDoFoundMetadataObject), configurationPart.ToDoFoundMetadataObjects);
 
 
 
