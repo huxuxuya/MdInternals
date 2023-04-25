@@ -259,6 +259,7 @@
       "#ElisyBound:SettingStorages",
       "#ElisyBound:EventSubscriptions",
       "#ElisyBound:StyleElements",
+	  "#ElisyBound:ToDoFoundMetadataObject",
       "#ElisyBound:CommonPictures",
       "#ElisyBound:ExchangePlans",
       "#ElisyBound:WebServices",
