@@ -121,6 +121,8 @@ namespace Elisy.MdInternals
             parts.Add(typeof(ChartOfAccounts), configurationPart.ChartsOfAccounts);
             parts.Add(typeof(AccountingRegister), configurationPart.AccountingRegisters);
 
+            parts.Add(typeof(HttpService), configurationPart.HttpServices);
+
 
 
             parts.AsParallel().ForAll(i => ReadMetadataObjects(i.Key, i.Value));
@@ -137,6 +139,7 @@ namespace Elisy.MdInternals
             if (sectionGuid != null)
             {
                 if (sectionGuid.Value != list[0].ToString())
+                    //return;
                     throw new InvalidOperationException("Section Guid is invalid");
             }
 

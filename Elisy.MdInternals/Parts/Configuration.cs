@@ -92,6 +92,7 @@ namespace Elisy.MdInternals
         public Collection List_7_1_4 { get; set; }
 
         public Guid Guid_8_1_1_0_2 { get; set; }
+        public Collection HttpServices { get; set; }
 
         public Configuration()
             : base()
