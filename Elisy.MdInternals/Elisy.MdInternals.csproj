@@ -108,6 +108,7 @@
     <Compile Include="Parts\UpdateInfo.cs" />
     <Compile Include="Parts\ExternalDataProcessor.cs" />
     <Compile Include="Parts\PartiallyResolvedPart.cs" />
+    <Compile Include="Parts\HttpService.cs" />
     <Compile Include="Resources\StringTemplates.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>

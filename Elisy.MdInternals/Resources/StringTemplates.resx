@@ -247,6 +247,7 @@
       "#ElisyBound:Roles",
       "#ElisyBound:CommonTemplates",
       "#ElisyBound:CommonModules",
+	  "#ElisyBound:HttpServices",
       "#ElisyBound:ScheduledJobs",
       "#ElisyBound:SharedAttributes",
       "#ElisyBound:SessionParameters",

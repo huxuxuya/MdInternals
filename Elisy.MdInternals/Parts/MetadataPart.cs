@@ -51,7 +51,7 @@ namespace Elisy.MdInternals
                 property.SetValue(this, o, null);
             }
         }
-
+        
         public MetadataPart(ImageRow imageRow) : base(imageRow)
         {
             BindModel();
@@ -59,7 +59,7 @@ namespace Elisy.MdInternals
             DataSerializer ds = new DataSerializer();
             SetModel(ds.Deserialize(ImageRow.Body as string));
         }
-
+        
         public MetadataPart()
             : base()
         {
