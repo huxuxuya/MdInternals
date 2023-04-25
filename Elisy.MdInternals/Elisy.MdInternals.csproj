@@ -105,6 +105,7 @@
     <Compile Include="Parts\Configuration.cs" />
     <Compile Include="DataElements\MetadataPartRef.cs" />
     <Compile Include="Parts\ExternalReport.cs" />
+    <Compile Include="Parts\ToDoFoundMetadataObject.cs" />
     <Compile Include="Parts\UpdateInfo.cs" />
     <Compile Include="Parts\ExternalDataProcessor.cs" />
     <Compile Include="Parts\PartiallyResolvedPart.cs" />
